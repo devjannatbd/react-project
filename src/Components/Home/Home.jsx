@@ -1,7 +1,9 @@
 
 import Categories from "../Categories/Categories";
 import Hero from "../Hero/Hero";
-import JobDetails from "../Jobs/JobDetails";
+import JobDetail from "../Jobs/JobDetail";
+
+
 import Jobs from "../Jobs/Jobs";
 
 const Home = () => {
@@ -10,7 +12,6 @@ const Home = () => {
       <Hero />
       <Categories />
       <Jobs />
-      <JobDetails />
     </div>
   );
 };
