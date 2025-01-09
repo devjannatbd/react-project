@@ -17,11 +17,15 @@ const setDataToLocalStorage = (id) => {
 
 const deleteDataFromLocalStorage = (id) => {
   const data = getDataFromLocalStorage()
-  const filterData = data.filter(da => da === id)
-  if (filterData) {
-    data.push(filterData)
-    localStorage.setItem('application-details', JSON.stringify(data))
-  }
+
+  const filterData = data.filter(da => da !== id)
+
+if(filterData){
+  localStorage.setItem('application-details',JSON.stringify(filterData))
+}
+  // if (filterData) {
+  //   localStorage.setItem('application-details',filterData )
+  // }
 }
 
 

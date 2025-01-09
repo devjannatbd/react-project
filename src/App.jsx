@@ -9,6 +9,7 @@ import Blog from './Components/Blog/Blog'
 //import JobDetails from './Components/Jobs/JobDetails'
 import ErrorPage from './Components/ErrorPage/ErrorPage'
 import JobDetail from './Components/Jobs/JobDetail'
+import LoginForm from './Components/LoginForm/LoginForm'
 // import JobDetails2 from './Components/Jobs/JobDetails2'
 
 
@@ -31,6 +32,10 @@ function App() {
         {
           path: '/blogs',
           element: <Blog />
+        },
+        {
+          path:'/login',
+          element: <LoginForm />
         },
         {
           path: '/jobs/:jobId',

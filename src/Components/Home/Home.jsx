@@ -1,7 +1,8 @@
 
 import Categories from "../Categories/Categories";
+import Findjob from "../Findjob/Findjob";
 import Hero from "../Hero/Hero";
-import JobDetail from "../Jobs/JobDetail";
+
 
 
 import Jobs from "../Jobs/Jobs";
@@ -11,6 +12,8 @@ const Home = () => {
     <div>
       <Hero />
       <Categories />
+
+      <Findjob />
       <Jobs />
     </div>
   );

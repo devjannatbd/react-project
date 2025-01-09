@@ -12,7 +12,7 @@ const Jobs = () => {
 
   return (
     <div className="max-w-6xl mx-auto mt-14">
-      <h2 className="text-center font-bold text-4xl border border-b-indigo-500 shadow-lg text-indigo-500 py-3 rounded-xl">Jobs</h2>
+      <h2 className="text-center font-bold text-4xl border border-b-indigo-500 shadow-lg text-white py-3 rounded-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">Jobs</h2>
       <p className="text-center mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi deleniti natus a. Nam praesentium iste mollitia explicabo accusantium cumque, voluptatem incidunt sint neque vel dolores, alias, consectetur labore? Qui, distinctio!</p>
 
       <div className="mt-10 grid grid-cols-2 p-10 gap-10 ">

@@ -32,15 +32,15 @@ const Header = () => {
               {list}
             </ul>
           </div>
-          <Link to='/' className="btn btn-ghost text-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">CareerNetwork</Link>
+          <Link to='/' className="btn btn-ghost text-xl bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">CareerNetwork</Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center hidden lg:flex ">
           <ul className="menu menu-horizontal px-1">
             {list}
           </ul>
         </div>
-        <div className="navbar-end">
-          <a className="btn bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">Button</a>
+        <div className="navbar-end mr-6">
+          <Link to='/login' className="btn bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white px-7">Login</Link>
         </div>
       </div>
     </div>
